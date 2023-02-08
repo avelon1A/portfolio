@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 2rem;
+    background-color: #222;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  form label,
+  form input,
+  form textarea {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  form input[type="submit"] {
+    background-color: #fff;
+    border: none;
+    color: #111;
+    padding: 1rem;
+  }
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 250px;
+    width: 200px;
+  }
+  img {
+    object-fit: fill;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #000;
+  }
+ 
+  
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+
+  .fa-instagram {
+    background: #ca5c9a;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: #1d1d1e;
+    color: white;
+  }
+  
+  .project-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .project {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .project-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+
+  .project-description {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  
+  
+      
