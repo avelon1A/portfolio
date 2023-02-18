@@ -2,15 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #2e2e2e;
   }
   
   header {
-    background-color: #111;
+    background-color: #7c62d2;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+  }
+  .p{
+    color: #000;
   }
   
   nav ul {
@@ -29,7 +32,7 @@ body {
   
   main {
     margin: 2rem;
-    background-color: #222;
+    background-color: #ffffff;
     padding: 2rem;
   }
   
@@ -40,7 +43,7 @@ body {
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #fff;
+    color: #2d2d2d;
   }
   
   form label,
@@ -54,20 +57,22 @@ body {
   form input[type="text"],
   form input[type="email"],
   form textarea {
-    background-color: #333;
+    background-color: #707070;
     color: #fff;
     padding: 0.5rem;
-    border: none;
+    border: 1px;
+    border-color: #2d2d2d;
+   
+    
   }
-  
   form input[type="submit"] {
-    background-color: #fff;
-    border: none;
+    background-color: #ffffff;
+    /* border: none; */
     color: #111;
     padding: 1rem;
-  }
+}
   nav a {
-    color: #fff;
+    color: #f1f1f1;
     display: block;
     padding: 1rem;
     text-decoration: none;
@@ -86,11 +91,14 @@ body {
   img {
     object-fit: fill;
   }
-  .center {
+  .amanpic {
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    border: 20px;
+    border-color: #000;
   }
   footer {
     display: flex;
@@ -103,14 +111,17 @@ body {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #333;
+    color: #eeeeee;
     text-decoration: none;
   }
   
   footer a:hover {
     color: #000;
   }
- 
+ .contact{
+
+  margin-right: 70%;
+ }
   
   
   .fa {
@@ -141,33 +152,51 @@ body {
   }
   
   .project-section {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #4d4d4d;
+    color: #fdfdfd;
+    padding: 50px;
+    border-radius: 10px;
+    
+    
   }
 
   .project {
-    background-color: #444;
-    color: #fff;
+    background-color: #f1d4ed;
+    color: #4e4c4c;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 10px;
+    margin-right: 70%;
   }
-
   .project-title {
     font-size: 24px;
     margin: 0 0 10px 0;
+   
   }
-
   .project-description {
     font-size: 14px;
     margin: 0;
+  }
+
+  .project:hover{
+    transform: scale(1.1,1.1);
+    background-color: #7c62d2;
+   color: #ffffff;
+   
   }
   .fix {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 0.2rem;
   }
+  .about-me{
+    color: #0f1010;
+    margin-left: 2%;
+    align-items: center;
+  }
+
 
   
   
